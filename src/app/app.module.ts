@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MainContainerComponent } from './components/main-container/main-container.component';
+import { OuterComponent } from './components/outer/outer.component';
+import { InnerComponent } from './components/inner/inner.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainContainerComponent,
+    OuterComponent,
+    InnerComponent
   ],
   imports: [
     BrowserModule
